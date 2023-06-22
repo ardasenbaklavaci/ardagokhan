@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\SaveLoad\ReadOnlyAttribute.cs" />
+    <Compile Include="Assets\Scripts\Gun\Gun.cs" />
     <Compile Include="Assets\Scripts\Inventory Scripts\ChestInventory.cs" />
     <Compile Include="Assets\Scripts\SaveLoad\SerializableDictionary.cs" />
     <Compile Include="Assets\Scripts\DayNightCycle\LightingManager.cs" />
@@ -72,6 +73,7 @@
     <Compile Include="Assets\Scripts\SaveLoad\SaveGameManager.cs" />
     <Compile Include="Assets\Scripts\UI Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\SaveLoad\SaveLoad.cs" />
+    <Compile Include="Assets\Scripts\Gun\GunSystem.cs" />
     <Compile Include="Assets\Scripts\UI Scripts\DynamicInventoryDisplay.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyController.cs" />
     <Compile Include="Assets\Sight.cs" />
@@ -85,6 +87,12 @@
     <Compile Include="Assets\Scripts\SaveLoad\SaveData.cs" />
     <Compile Include="Assets\Scripts\Inventory Scripts\Inventory Slots.cs" />
     <Compile Include="Assets\Scripts\Inventory Scripts\InventoryHolder.cs" />
+    <Compile Include="Assets\Scripts\GunSystemOverhauled\GunData.cs" />
+    <Compile Include="Assets\Scripts\GunSystemOverhauled\GunMain.cs" />
+    <Compile Include="Assets\Scripts\GunSystemOverhauled\PlayerShoot.cs" />
+    <Compile Include="Assets\Scripts\GunSystemOverhauled\WeaponSway.cs" />
+    <Compile Include="Assets\Scripts\Interfaces\IDamagable.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Target.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -103,6 +111,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\AssetStore\POLYGON city pack\Read_me.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
